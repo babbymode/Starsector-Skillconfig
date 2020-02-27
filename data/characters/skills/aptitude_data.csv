@@ -1,0 +1,5 @@
+id,name,color,description,order,effect_skill_id,sound1,sound2,sound3
+combat,Combat,"220,94,41,255",Governs skills that directly improve the combat effectiveness of the piloted ship.,1,aptitude_combat,combat1,combat2,combat3
+leadership,Leadership,"107,175,0,255","Governs skills that improve the combat effectiveness of the fleet as a whole, and skills that improve the effectiveness of fighters.",2,aptitude_leadership,leadership1,leadership2,leadership3
+technology,Technology,"0,121,216,255",Governs skills that primarily improve the performance of the fleet in both combat and non-combat areas.,3,aptitude_technology,technology1,technology2,technology3
+industry,Industry,"175,135,0,255",Governs a range of skills to do with salvaging and exploration.,4,aptitude_industry,industry1,industry2,industry3

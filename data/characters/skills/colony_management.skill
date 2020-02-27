@@ -1,0 +1,38 @@
+{
+	"id":"colony_management",
+	"governingAptitude":"industry",
+	"compressHullmods":false,
+	"effectGroups":[
+		{
+			"requiredSkillLevel":0,
+			"effects":[
+				{"type":"DESCRIPTION", "script":"com.fs.starfarer.api.impl.campaign.skills.ColonyManagement$Level0"},
+			]
+		},
+		{
+			"name":"Level 1",
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"CHARACTER_STATS", "script":"com.fs.starfarer.api.impl.campaign.skills.ColonyManagement$Level1A"},
+			]
+		},
+		{
+			"name":"Level 2",
+			"requiredSkillLevel":2,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"CHARACTER_STATS", "script":"com.fs.starfarer.api.impl.campaign.skills.ColonyManagement$Level2A"},
+			]
+		},
+		{
+			"name":"Level 3",
+			"requiredSkillLevel":3,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"CHARACTER_STATS", "script":"com.fs.starfarer.api.impl.campaign.skills.ColonyManagement$Level3A"},
+			]
+		},
+	],
+}
+
