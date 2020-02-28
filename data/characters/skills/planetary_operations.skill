@@ -8,10 +8,10 @@
 			"requiredSkillLevel":1,
 			"effectBasedOnLevel":false,
 			"effects":[
-				#{"type":"CHARACTER_STATS", "script":"com.fs.starfarer.api.impl.campaign.skills.PlanetaryOperations$Level1A"},
+				#{"type":"CHARACTER_STATS", "script":"skillconfig.campaign.skills.PlanetaryOperations$Level1A"},
 				
-				{"type":"FLEET", "script":"com.fs.starfarer.api.impl.campaign.skills.PlanetaryOperations$Level1A"},
-				{"type":"GOVERNED_OUTPOST", "script":"com.fs.starfarer.api.impl.campaign.skills.PlanetaryOperations$Level1B"},
+				{"type":"FLEET", "script":"skillconfig.campaign.skills.PlanetaryOperations$Level1A"},
+				{"type":"GOVERNED_OUTPOST", "script":"skillconfig.campaign.skills.PlanetaryOperations$Level1B"},
 			]
 		},
 		{
@@ -19,10 +19,10 @@
 			"requiredSkillLevel":2,
 			"effectBasedOnLevel":false,
 			"effects":[
-				#{"type":"CHARACTER_STATS", "script":"com.fs.starfarer.api.impl.campaign.skills.PlanetaryOperations$Level2A"},
+				#{"type":"CHARACTER_STATS", "script":"skillconfig.campaign.skills.PlanetaryOperations$Level2A"},
 				
-				{"type":"FLEET", "script":"com.fs.starfarer.api.impl.campaign.skills.PlanetaryOperations$Level2A"},
-				{"type":"GOVERNED_OUTPOST", "script":"com.fs.starfarer.api.impl.campaign.skills.PlanetaryOperations$Level2B"},
+				{"type":"FLEET", "script":"skillconfig.campaign.skills.PlanetaryOperations$Level2A"},
+				{"type":"GOVERNED_OUTPOST", "script":"skillconfig.campaign.skills.PlanetaryOperations$Level2B"},
 			]
 		},
 		{
@@ -30,7 +30,7 @@
 			"requiredSkillLevel":3,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"GOVERNED_OUTPOST", "script":"com.fs.starfarer.api.impl.campaign.skills.PlanetaryOperations$Level3A"},
+				{"type":"GOVERNED_OUTPOST", "script":"skillconfig.campaign.skills.PlanetaryOperations$Level3A"},
 			]
 		},
 	],

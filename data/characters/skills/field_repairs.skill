@@ -7,8 +7,8 @@
 			"requiredSkillLevel":1,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"FLEET", "script":"com.fs.starfarer.api.impl.campaign.skills.FieldRepairs$Level1"},
-				{"type":"FLEET", "script":"com.fs.starfarer.api.impl.campaign.skills.FieldRepairs$Level1B"},
+				{"type":"FLEET", "script":"skillconfig.campaign.skills.FieldRepairs$Level1"},
+				{"type":"FLEET", "script":"skillconfig.campaign.skills.FieldRepairs$Level1B"},
 			]
 		},
 		{
@@ -16,7 +16,7 @@
 			"requiredSkillLevel":2,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"ALL_SHIPS_IN_FLEET", "script":"com.fs.starfarer.api.impl.campaign.skills.FieldRepairs$Level2"},
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillconfig.campaign.skills.FieldRepairs$Level2"},
 			]
 		},
 		{
@@ -24,8 +24,8 @@
 			"requiredSkillLevel":3,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"CHARACTER_STATS", "script":"com.fs.starfarer.api.impl.campaign.skills.FieldRepairs$Level3"},
-				{"type":"ALL_SHIPS_IN_FLEET", "script":"com.fs.starfarer.api.impl.campaign.skills.FieldRepairs$Level3B"},
+				{"type":"CHARACTER_STATS", "script":"skillconfig.campaign.skills.FieldRepairs$Level3"},
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillconfig.campaign.skills.FieldRepairs$Level3B"},
 			]
 		},
 	],

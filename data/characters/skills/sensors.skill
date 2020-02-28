@@ -8,7 +8,7 @@
 			"requiredSkillLevel":1,
 			"effectBasedOnLevel":false,
 			"effects":[
-				#{"type":"FLEET", "script":"com.fs.starfarer.api.impl.campaign.skills.Sensors$Level1"},
+				#{"type":"FLEET", "script":"skillconfig.campaign.skills.Sensors$Level1"},
 				{"type":"ABILITY_UNLOCK", "abilities":["gravitic_scan"]},
 			]
 		},
@@ -17,8 +17,8 @@
 			"requiredSkillLevel":2,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"FLEET", "script":"com.fs.starfarer.api.impl.campaign.skills.Sensors$Level2A"},
-				{"type":"FLEET", "script":"com.fs.starfarer.api.impl.campaign.skills.Sensors$Level2B"},
+				{"type":"FLEET", "script":"skillconfig.campaign.skills.Sensors$Level2A"},
+				{"type":"FLEET", "script":"skillconfig.campaign.skills.Sensors$Level2B"},
 			]
 		},
 		{
@@ -26,8 +26,8 @@
 			"requiredSkillLevel":3,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"FLEET", "script":"com.fs.starfarer.api.impl.campaign.skills.Sensors$Level3A"},
-				{"type":"FLEET", "script":"com.fs.starfarer.api.impl.campaign.skills.Sensors$Level3B"},
+				{"type":"FLEET", "script":"skillconfig.campaign.skills.Sensors$Level3A"},
+				{"type":"FLEET", "script":"skillconfig.campaign.skills.Sensors$Level3B"},
 				{"type":"HULLMOD_UNLOCK", "hullmods":{"hiressensors":3}},
 			]
 		},

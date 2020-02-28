@@ -8,8 +8,8 @@
 			"requiredSkillLevel":1,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"CHARACTER_STATS", "script":"com.fs.starfarer.api.impl.campaign.skills.Navigation$Level1"},
-				#{"type":"FLEET", "script":"com.fs.starfarer.api.impl.campaign.skills.Navigation$Level1B"},
+				{"type":"CHARACTER_STATS", "script":"skillconfig.campaign.skills.Navigation$Level1"},
+				#{"type":"FLEET", "script":"skillconfig.campaign.skills.Navigation$Level1B"},
 			]
 		},
 		{
@@ -17,8 +17,8 @@
 			"requiredSkillLevel":2,
 			"effectBasedOnLevel":false,
 			"effects":[
-				#{"type":"FLEET", "script":"com.fs.starfarer.api.impl.campaign.skills.Navigation$Level2"},
-				{"type":"ALL_SHIPS_IN_FLEET", "script":"com.fs.starfarer.api.impl.campaign.skills.Navigation$Level2"},
+				#{"type":"FLEET", "script":"skillconfig.campaign.skills.Navigation$Level2"},
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillconfig.campaign.skills.Navigation$Level2"},
 			]
 		},
 		{
@@ -26,8 +26,8 @@
 			"requiredSkillLevel":3,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"FLEET", "script":"com.fs.starfarer.api.impl.campaign.skills.Navigation$Level3A"},
-				{"type":"FLEET", "script":"com.fs.starfarer.api.impl.campaign.skills.Navigation$Level3B"},
+				{"type":"FLEET", "script":"skillconfig.campaign.skills.Navigation$Level3A"},
+				{"type":"FLEET", "script":"skillconfig.campaign.skills.Navigation$Level3B"},
 				{"type":"ABILITY_UNLOCK", "abilities":["fracture_jump"]},
 			]
 		},

@@ -8,7 +8,7 @@
 			"requiredSkillLevel":1,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"SHIP_FIGHTERS", "script":"com.fs.starfarer.api.impl.campaign.skills.StrikeCommander$Level1"},
+				{"type":"SHIP_FIGHTERS", "script":"skillconfig.campaign.skills.StrikeCommander$Level1"},
 			]
 		},
 		{
@@ -16,7 +16,7 @@
 			"requiredSkillLevel":2,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"SHIP_FIGHTERS", "script":"com.fs.starfarer.api.impl.campaign.skills.StrikeCommander$Level2"},
+				{"type":"SHIP_FIGHTERS", "script":"skillconfig.campaign.skills.StrikeCommander$Level2"},
 			]
 		},
 		{
@@ -24,7 +24,7 @@
 			"requiredSkillLevel":3,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"SHIP_FIGHTERS", "script":"com.fs.starfarer.api.impl.campaign.skills.StrikeCommander$Level3"},
+				{"type":"SHIP_FIGHTERS", "script":"skillconfig.campaign.skills.StrikeCommander$Level3"},
 			]
 		},
 	],

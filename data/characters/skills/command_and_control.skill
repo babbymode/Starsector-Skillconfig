@@ -8,8 +8,8 @@
 			"requiredSkillLevel":1,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"CHARACTER_STATS", "script":"com.fs.starfarer.api.impl.campaign.skills.CommandAndControl$Level1A"},
-				#{"type":"CHARACTER_STATS", "script":"com.fs.starfarer.api.impl.campaign.skills.CommandAndControl$Level1B"},
+				{"type":"CHARACTER_STATS", "script":"skillconfig.campaign.skills.CommandAndControl$Level1A"},
+				#{"type":"CHARACTER_STATS", "script":"skillconfig.campaign.skills.CommandAndControl$Level1B"},
 			]
 		},
 		{
@@ -17,7 +17,7 @@
 			"requiredSkillLevel":2,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"CHARACTER_STATS", "script":"com.fs.starfarer.api.impl.campaign.skills.CommandAndControl$Level1B"},
+				{"type":"CHARACTER_STATS", "script":"skillconfig.campaign.skills.CommandAndControl$Level1B"},
 			]
 		},
 		{
@@ -25,8 +25,8 @@
 			"requiredSkillLevel":3,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"CHARACTER_STATS", "script":"com.fs.starfarer.api.impl.campaign.skills.CommandAndControl$Level3A"},
-				{"type":"CHARACTER_STATS", "script":"com.fs.starfarer.api.impl.campaign.skills.CommandAndControl$Level3B"},
+				{"type":"CHARACTER_STATS", "script":"skillconfig.campaign.skills.CommandAndControl$Level3A"},
+				{"type":"CHARACTER_STATS", "script":"skillconfig.campaign.skills.CommandAndControl$Level3B"},
 				{"type":"HULLMOD_UNLOCK", "hullmods":{"operations_center":3}},
 			]
 		},		

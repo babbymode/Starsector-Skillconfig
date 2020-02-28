@@ -6,7 +6,7 @@
 		{
 			"requiredSkillLevel":0,
 			"effects":[
-				{"type":"DESCRIPTION", "script":"com.fs.starfarer.api.impl.campaign.skills.ElectronicWarfare$Level0"},
+				{"type":"DESCRIPTION", "script":"skillconfig.campaign.skills.ElectronicWarfare$Level0"},
 			]
 		},
 		{
@@ -14,8 +14,8 @@
 			"requiredSkillLevel":1,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"ALL_SHIPS_IN_FLEET", "script":"com.fs.starfarer.api.impl.campaign.skills.ElectronicWarfare$Level1A"},
-				#{"type":"CHARACTER_STATS", "script":"com.fs.starfarer.api.impl.campaign.skills.ElectronicWarfare$Level1B"},
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillconfig.campaign.skills.ElectronicWarfare$Level1A"},
+				#{"type":"CHARACTER_STATS", "script":"skillconfig.campaign.skills.ElectronicWarfare$Level1B"},
 				{"type":"HULLMOD_UNLOCK", "hullmods":{"ecm":1}},
 			]
 		},
@@ -24,7 +24,7 @@
 			"requiredSkillLevel":2,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"CHARACTER_STATS", "script":"com.fs.starfarer.api.impl.campaign.skills.ElectronicWarfare$Level2B"},
+				{"type":"CHARACTER_STATS", "script":"skillconfig.campaign.skills.ElectronicWarfare$Level2B"},
 			]
 		},
 		{
@@ -32,7 +32,7 @@
 			"requiredSkillLevel":3,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"CHARACTER_STATS", "script":"com.fs.starfarer.api.impl.campaign.skills.ElectronicWarfare$Level3B"},
+				{"type":"CHARACTER_STATS", "script":"skillconfig.campaign.skills.ElectronicWarfare$Level3B"},
 				{"type":"HULLMOD_UNLOCK", "hullmods":{"eccm":3}},
 			]
 		},

@@ -8,7 +8,7 @@
 			"requiredSkillLevel":1,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"FLEET", "script":"com.fs.starfarer.api.impl.campaign.skills.Surveying$Level1"},
+				{"type":"FLEET", "script":"skillconfig.campaign.skills.Surveying$Level1"},
 				{"type":"ABILITY_UNLOCK", "abilities":["remote_survey"]},
 			]
 		},
@@ -17,7 +17,7 @@
 			"requiredSkillLevel":2,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"FLEET", "script":"com.fs.starfarer.api.impl.campaign.skills.Surveying$Level2"},
+				{"type":"FLEET", "script":"skillconfig.campaign.skills.Surveying$Level2"},
 				{"type":"HULLMOD_UNLOCK", "hullmods":{"surveying_equipment":2}},
 			]
 		},
@@ -26,7 +26,7 @@
 			"requiredSkillLevel":3,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"FLEET", "script":"com.fs.starfarer.api.impl.campaign.skills.Surveying$Level3"},
+				{"type":"FLEET", "script":"skillconfig.campaign.skills.Surveying$Level3"},
 			]
 		},
 	],

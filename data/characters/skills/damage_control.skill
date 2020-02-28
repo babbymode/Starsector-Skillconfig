@@ -8,10 +8,10 @@
 			"requiredSkillLevel":1,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"SHIP", "script":"skillrework.campaign.skills.DamageControl$Level1p"},
-				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillrework.campaign.skills.DamageControl$Level1f"},
-				{"type":"SHIP", "script":"skillrework.campaign.skills.DamageControl$Level1B"},
-				{"type":"SHIP", "script":"skillrework.campaign.skills.DamageControl$Level1C"},
+				{"type":"SHIP", "script":"skillconfig.campaign.skills.DamageControl$Level1p"},
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillconfig.campaign.skills.DamageControl$Level1f"},
+				{"type":"SHIP", "script":"skillconfig.campaign.skills.DamageControl$Level1B"},
+				{"type":"SHIP", "script":"skillconfig.campaign.skills.DamageControl$Level1C"},
 			]
 		},
 		{
@@ -19,9 +19,9 @@
 			"requiredSkillLevel":2,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"SHIP", "script":"skillrework.campaign.skills.DamageControl$Level2p"},
-				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillrework.campaign.skills.DamageControl$Level2f"},
-				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillrework.campaign.skills.DamageControl$Level2B"},
+				{"type":"SHIP", "script":"skillconfig.campaign.skills.DamageControl$Level2p"},
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillconfig.campaign.skills.DamageControl$Level2f"},
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillconfig.campaign.skills.DamageControl$Level2B"},
 				{"type":"HULLMOD_UNLOCK", "hullmods":{"autorepair":2}},		
 			]
 		},
@@ -30,10 +30,10 @@
 			"requiredSkillLevel":3,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"SHIP", "script":"skillrework.campaign.skills.DamageControl$Level3Ap"},
-				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillrework.campaign.skills.DamageControl$Level3Af"},
-				{"type":"SHIP", "script":"skillrework.campaign.skills.DamageControl$Level3Bp"},
-				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillrework.campaign.skills.DamageControl$Level3Bf"},
+				{"type":"SHIP", "script":"skillconfig.campaign.skills.DamageControl$Level3Ap"},
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillconfig.campaign.skills.DamageControl$Level3Af"},
+				{"type":"SHIP", "script":"skillconfig.campaign.skills.DamageControl$Level3Bp"},
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"skillconfig.campaign.skills.DamageControl$Level3Bf"},
 			]
 		},
 	],

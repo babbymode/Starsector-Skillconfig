@@ -6,7 +6,7 @@
 		{
 			"requiredSkillLevel":0,
 			"effects":[
-				{"type":"DESCRIPTION", "script":"com.fs.starfarer.api.impl.campaign.skills.ColonyManagement$Level0"},
+				{"type":"DESCRIPTION", "script":"skillconfig.campaign.skills.ColonyManagement$Level0"},
 			]
 		},
 		{
@@ -14,7 +14,7 @@
 			"requiredSkillLevel":1,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"CHARACTER_STATS", "script":"com.fs.starfarer.api.impl.campaign.skills.ColonyManagement$Level1A"},
+				{"type":"CHARACTER_STATS", "script":"skillconfig.campaign.skills.ColonyManagement$Level1A"},
 			]
 		},
 		{
@@ -22,7 +22,7 @@
 			"requiredSkillLevel":2,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"CHARACTER_STATS", "script":"com.fs.starfarer.api.impl.campaign.skills.ColonyManagement$Level2A"},
+				{"type":"CHARACTER_STATS", "script":"skillconfig.campaign.skills.ColonyManagement$Level2A"},
 			]
 		},
 		{
@@ -30,7 +30,7 @@
 			"requiredSkillLevel":3,
 			"effectBasedOnLevel":false,
 			"effects":[
-				{"type":"CHARACTER_STATS", "script":"com.fs.starfarer.api.impl.campaign.skills.ColonyManagement$Level3A"},
+				{"type":"CHARACTER_STATS", "script":"skillconfig.campaign.skills.ColonyManagement$Level3A"},
 			]
 		},
 	],
