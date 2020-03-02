@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Starsector-Skillconfig:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Starsector_Skillconfig_jar</output-path>
+    <root id="archive" name="Starsector-Skillconfig.jar">
+      <element id="module-output" name="Starsector-Skillconfig" />
+    </root>
+  </artifact>
+</component>
