@@ -100,8 +100,8 @@
   "HPersonalZeroFluxLevel":10,
   "HFleetZeroFluxLevel":15,
   ### Impact Mitigation ###
-  "IMPersonalArmorBonus":120,
-  "IMFleetArmorBonus":165,
+  "IMPersonalArmorBonus":125,
+  "IMFleetArmorBonus":175,
   "IMPersonalMaxDamageReductionBonus":0.03,
   "IMFleetMaxDamageReductionBonus":0.05,
   "IMPersonalArmorDamageReduction":20,
