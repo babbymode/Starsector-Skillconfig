@@ -168,10 +168,10 @@
   "SPCRMalfunctionRangeMult":0.35,
   "SPDmodEffectMult":0.35,
   ### Salvaging ###
-  "SLvl1SalvageRating":35,
-  "SLvl2SalvageRating":35,
-  "SLvl3SalvageRating":50,
-  "SLvl3CombatSalvage":40,
+  "SLvl1SalvageRating":65,
+  "SLvl2SalvageRating":65,
+  "SLvl3SalvageRating":70,
+  "SLvl3CombatSalvage":75,
   ### Sensors ###
   "SDetectedBonus":65,
   "SGoDarkMult":0.35,
